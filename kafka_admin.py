@@ -55,8 +55,7 @@ def delete_topics(kafka_admin, topic_name_list):
 
 if __name__ == '__main__':
     admin = KafkaAdminClient(bootstrap_servers=["cluster.local:9092"])
-    topic_data_list = [{"topic_name": "raw_data", "partitions": 20}, {"topic_name": "after_cim", "partitions": 10},
-                       {"topic_name": "after_enrichment", "partitions": 10}]
+    topic_data_list = [{"topic_name": "raw_data", "partitions": 20} ]
     for topic_data in topic_data_list:
         topic_name = topic_data["topic_name"]
         partitions = topic_data["partitions"]
