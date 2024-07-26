@@ -1,4 +1,5 @@
-Pyhton Kafka Manager for common operations
+Python Kafka Manager for common operations
+
 The KafkaManager class is a Python-based utility for managing Kafka topics, partitions, and messages. It provides a high-level interface to Kafka functionalities such as topic creation, partition management, message production, and consumption. The class uses Kafka's producer, consumer, and admin clients to interact with a Kafka cluster. Below is a detailed description of the code:
 
 Class Initialization
